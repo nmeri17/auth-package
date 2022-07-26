@@ -1,0 +1,24 @@
+{
+    "name": "nmeri/auth-package",
+    "description": "Suphle routes, controllers for common requirements in user account authentication e.g. registration, password recovery etc",
+    "require-dev": {
+        "nmeri/tilwa": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuphleAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SuphleAuth\\Tests\\": "tests/"
+        }
+    },
+
+    "repositories": [
+    	{
+    		"type": "path",
+	        "url": "../suphle"
+	    }
+    ]
+}
