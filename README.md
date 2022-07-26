@@ -1,3 +1,3 @@
-# suphle-auth-package
+# auth-package
 
-Routes, controllers for common requirements in user account authentication e.g. registration, password recovery etc
+Suphle routes, controllers for common requirements in user account authentication e.g. registration, password recovery etc
